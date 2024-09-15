@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 import TodoInput from "./components/TodoInput"
 import TodoList from "./components/TodoList"
+import About from "./components/About"
 
 function App() {
   const [todos, setTodos] = useState([])
@@ -49,10 +50,15 @@ function App() {
   }
 
 
+
+
+
+
   return (
     <>
       <TodoInput todoValue={todoValue} setTodoValue={setTodoValue} handleAddTodos={handleAddTodos} />
       <TodoList handleEditTodos={handleEditTodos} handleDeleteTodos={handleDeleteTodos} todos={todos} />
+      <About />
     </>
   )
 }

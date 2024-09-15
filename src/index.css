@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #4171ff;
+  color: #24b200;
 }
 
 h1,
@@ -19,7 +19,7 @@ button {
   display: flex;
   flex-direction: column;
   padding: 14px;
-  background: #eff6ff;
+  background: rgb(41, 41, 41);
   gap: 14px;
 }
 
@@ -29,6 +29,7 @@ header {
 }
 
 header,
+
 .main {
   max-width: 800px;
   width: 100%;
@@ -78,7 +79,7 @@ p {
   gap: 14px;
   padding: 14px;
   border-radius: 14px;
-  background: white;
+  background: rgb(41, 41, 41);
 }
 
 .todoItem p {
@@ -108,10 +109,16 @@ p {
 
   header button,
   header input {
-    font-size: 1.2em;
+    font-size: 1.7em;
   }
 
   p {
-    font-size: 1em;
+    font-size: 1.3em;
   }
+}
+
+
+.about-link {
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 10px;
 }
