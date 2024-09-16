@@ -133,3 +133,17 @@ p {
   font-family: 'Press Start 2P', sans-serif;
   font-size: 10px;
 }
+
+.about-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .about-header {
+      top: auto;
+      bottom: 0;
+  }
+}
